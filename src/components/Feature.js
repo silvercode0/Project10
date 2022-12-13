@@ -113,13 +113,13 @@ const Feature = (props) => {
     } = featuredResult || {};
 
     if (featuredResult === null) return <main id="feature"></main>;
-// {dated !== null ? dated : ""} {title !== null ? title : ""}
+
     return (
         <main id="feature">
             <div className="object-feature">
                 <header>
-                    <h3>{featuredResult.title}</h3>
-                    <h4>{featuredResult.dated}</h4>
+                    <h3>{dated !== null ? dated : ""} </h3>
+                    <h4>{title !== null ? title : ""}</h4>
                 </header>
                 <section className="facts">
                     {/* if description is null, don't display description */}

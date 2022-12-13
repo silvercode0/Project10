@@ -39,18 +39,18 @@ const App = () => {
             setSearchResults={setSearchResults}
         />
         {/* <Preview /> needs props for searchResults, setIsLoading and setSearchResults (clicking prev/next buttons), and setFeaturedResult (clicking a preview) */}
-        {/* <Preview
+        <Preview
             searchResults={searchResults}
             setIsLoading={setIsLoading}
             setSearchResults={setSearchResults}
             setFeaturedResult={setFeaturedResult}
-        /> */}
+        />
         {/* <Feature /> needs props for featuredResult, as well as setIsLoading and setSearchResults (clicking on searchable properties) */}
-        {/* <Feature
+        <Feature
             featuredResult={featuredResult}
             setIsLoading={setIsLoading}
             setSearchResults={setSearchResults}
-        /> */}
+        />
         {/* <Loading /> is static, but should only render when isLoading is true */}
         {isLoading === true ? <Loading /> : ""}
     </React.Fragment></div>;
