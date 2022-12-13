@@ -35,8 +35,10 @@ const App = () => {
         <Title />
         {/* <Search /> needs props for setIsLoading and setSearchResults (trigger <Loading /> on search start/end, and transfer results to preview) */}
         <Search
+            searchResults={searchResults}
             setIsLoading={setIsLoading}
             setSearchResults={setSearchResults}
+            setFeaturedResult={setFeaturedResult}
         />
         {/* <Preview /> needs props for searchResults, setIsLoading and setSearchResults (clicking prev/next buttons), and setFeaturedResult (clicking a preview) */}
         <Preview
