@@ -1,19 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
-// const URL = () => {
-//     const name = "Rebecca";
-//     return(
-//         <div>
-//             <h2> ${name}'s Site </h2>
-//         </div>
-//     );
-
-// };
-// export default URL
-
-// ReactDOM.render(<URL />, document.getElementById("URL"));
-
 
 // These imports won't work until you fix ./components/index.js
 import {
